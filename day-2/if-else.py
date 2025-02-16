@@ -15,6 +15,7 @@
 
 current_bill_units=int(input('enter the units '))
 if current_bill_units<=100:
+    
     if current_bill_units<=50:
       print( "rupees:",0*current_bill_units )
     else:
