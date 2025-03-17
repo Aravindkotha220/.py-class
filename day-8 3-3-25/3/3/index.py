@@ -25,14 +25,14 @@ print_primes(min_num, max_num)
 
 # Define the correct PIN
 correct_pin = "1234"
-attempts = 3  # Number of attempts
+attempts = 3  
 
 while attempts > 0:
     pin = input("Enter your 4-digit PIN: ")
 
     if pin == correct_pin:
         print(" Access Granted!")
-        break  # Exit loop if PIN is correct
+        break 
     else:
         attempts -= 1
         if attempts > 0:
