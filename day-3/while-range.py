@@ -1,41 +1,49 @@
 
 # for i in range(1,21,2):
 #     print(i,'odd number')
+   
 # for i in range(2,5):
 #     print(i**2)    
-# for i in range(1,4):
+# for i in range(1,3):
 #     for j in range(1,10):
 #         print(j,i)
 #     print('hello ')
-#     print('hello ') 
     
 # num=int(input("enter the number"))
 # num2=int(input("enter the number"))
-# for i in range(num,num2):
-#    if i != 5 and  i!=7:
-#     for j in range(1,20):
-#         print(i,j)
+# print(num+num2)
 
 
 # num=int(input('enter the number'))
+# while num<9:
+#     print("hello sir")
+    
 
-# while num<5:
-#     print("hi sir")
-#     num += 2
 
+# num=1
 
-# num=5
-
-# while num < 26:
+# while num < 15:
 #     if num % 2==0:
 #         print(num,"even")
 #     else:
 #         print(num,'odd')    
 #     num +=1    
+# num=1
+# while num < 11:
+#     for i in range(num,11):
+#             print(num,i)
+#     num+=1
+
+
 num=1
 while num < 11:
-    # for i in range(num,11):
-    for j in range(1,11):
-        print(num,j)
-
+    for i in range(num,11):
+        for j in range(1,11):
+            print(num,i)
     num+=1
+# i=1
+# while i < 11:
+#     for i in range(i,11):
+#         for j in range(1,11):
+#             print(i,j)
+#     i+=1
