@@ -1,3 +1,6 @@
+
+
+
 list=[1,6,97,-76,54,7]
 sum=0
 for i in range(0,len(list),2):
@@ -5,8 +8,6 @@ for i in range(0,len(list),2):
             sum+=list[i]
     
 print(sum)
-
-
 
 
 # for finding even numbers

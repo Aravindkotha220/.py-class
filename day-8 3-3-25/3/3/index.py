@@ -1,3 +1,5 @@
+
+
 def is_prime(n):
     if n < 2:
         return False
@@ -12,7 +14,6 @@ def print_primes(min_num, max_num):
         if is_prime(num):
             print(num, end=" ")
 
-# Example usage
 min_num = int(input("Enter the minimum number: "))
 max_num = int(input("Enter the maximum number: "))
 
@@ -30,11 +31,11 @@ while attempts > 0:
     pin = input("Enter your 4-digit PIN: ")
 
     if pin == correct_pin:
-        print("✅ Access Granted!")
+        print(" Access Granted!")
         break  # Exit loop if PIN is correct
     else:
         attempts -= 1
         if attempts > 0:
-            print(f"❌ Incorrect PIN. You have {attempts} attempts left.")
+            print(f" Incorrect PIN. You have {attempts} attempts left.")
         else:
-            print("⛔ Account Blocked! Too many failed attempts.")
+            print(" Account Blocked! Too many failed attempts.")
